@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "deventapp_backend": {
+      "main": "src/deventapp_backend/main.mo",
+      "type": "motoko"
+    },
+    "deventapp_frontend": {
+      "dependencies": [
+        "deventapp_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/deventapp_frontend/src/index.html"
+      },
+      "source": [
+        "src/deventapp_frontend/assets",
+        "dist/deventapp_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
