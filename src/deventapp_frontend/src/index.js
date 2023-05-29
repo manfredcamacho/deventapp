@@ -1,3 +1,7 @@
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import "./App.scss";
 import { deventapp_backend } from "../../declarations/deventapp_backend";
 
 document.querySelector("form").addEventListener("submit", async (e) => {
@@ -17,3 +21,6 @@ document.querySelector("form").addEventListener("submit", async (e) => {
 
   return false;
 });
+
+const root = createRoot(document.getElementById("app"));
+root.render(<App />);
