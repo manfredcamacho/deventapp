@@ -19,3 +19,6 @@ dist/
 
 # environment variables
 .env
+
+internet_identity_dev.wasm.gz
+internet_identity.did
