@@ -46,10 +46,9 @@ module.exports = {
   // tutorial, uncomment the following lines:
   module: {
     rules: [
-      { test: /\.(ts|tsx|jsx)$/, loader: "ts-loader" },
       {
-        test: /\.(sass|scss|css)$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
       {
         test: /\.(js|jsx)$/,

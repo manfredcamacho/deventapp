@@ -5,16 +5,11 @@
       "type": "motoko"
     },
     "deventapp_frontend": {
-      "dependencies": [
-        "deventapp_backend"
-      ],
+      "dependencies": ["deventapp_backend"],
       "frontend": {
         "entrypoint": "src/deventapp_frontend/src/index.html"
       },
-      "source": [
-        "src/deventapp_frontend/assets",
-        "dist/deventapp_frontend/"
-      ],
+      "source": ["src/deventapp_frontend/assets", "dist/deventapp_frontend/"],
       "type": "assets"
     },
     "internet_identity": {
