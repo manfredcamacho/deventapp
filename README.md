@@ -1,8 +1,9 @@
-# deventapp WIP
+# deventapp [WIP]
+
+Deventapp is a Decentralized Event Application that operates on the blockchain.
 
 <img width="969" alt="Screenshot 2023-06-09 at 15 30 12" src="https://github.com/manfredcamacho/deventapp/assets/12779378/92a1a1d5-e924-4ded-9266-afcee34e0fe9">
 
-Deventapp is a Decentralized Event Application that operates on the blockchain.
 
 If you want to start working on your project right away, you might want to try the following commands:
 
